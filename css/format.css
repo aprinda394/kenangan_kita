@@ -169,3 +169,27 @@
 #musicBtn:hover {
   background-color: #ff1a4d;
 }
+
+@media screen and (max-width: 768px) {
+  #imgTxt {
+    height: 30%;
+    overflow-y: auto; /* supaya scrollable jika teks panjang */
+  }
+
+  #typeDiv {
+    height: 20%;
+    top: 60%;
+    overflow-y: auto;
+  }
+
+  #heartTxt {
+    top: 85%; /* pastikan tetap muncul di bagian bawah */
+    z-index: 10; /* tampil di atas elemen lain */
+  }
+
+  #button {
+    width: 80%;
+    height: 80%;
+  }
+}
+
